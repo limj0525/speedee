@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedee Engineering & Industrial Supply</title>
+    <link rel="icon" href="./images/logo/speedee-logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <a href="./index.html" class="brand">
+                <img src="./images/logo/speedee-logo.png" alt="Speedee Engineering Logo" class="logo">
+                <div class="brand-text">
+                    <h1>Speedee Engineering & Industrial Supply</h1>
+                </div>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">☰</button>
+
+            <nav class="main-nav" id="main-nav">
+                <ul class="nav-list">
+                    <li><a href="./index.html" class="active">Home</a></li>
+                    <li><a href="product-home.html">Products</a></li>
+                    <li class="dropdown">
+                        <a href="./industry-services/service-home.html">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./industry-services/service-a.html">Service A</a></li>
+                            <li><a href="./industry-services/service-b.html">Service B</a></li>
+                            <li><a href="./industry-services/service-c.html">Service C</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ═══════════════════════════════════════════
+         AUTO-SCROLLING BANNER SLIDER
+    ═══════════════════════════════════════════ -->
+        <section class="banner-slider" id="bannerSlider" aria-label="Featured banners">
+
+            <!-- Slide 1 — About -->
+            <div class="slide slide-about active" role="group" aria-label="Slide 1 of 3">
+                <div class="slide-content">
+                    <span class="slide-label">About Speedee</span>
+                    <div class="slide-heading-row">
+                        <button class="slider-arrow prev" id="prevBtn" aria-label="Previous slide">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <h2>Built on Trust, Driven by Excellence</h2>
+                        <button class="slider-arrow next" id="nextBtn" aria-label="Next slide">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <p>Decades of industry experience delivering engineering solutions that meet the highest standards
+                        of quality and reliability.</p>
+                    <div class="hero-buttons">
+                        <a href="./about-us.html" class="btn btn-primary">About Us</a>
+                        <a href="./contact-us.html" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 — Products -->
+            <div class="slide slide-products" role="group" aria-label="Slide 2 of 3">
+                <div class="slide-content">
+                    <span class="slide-label">Our Products</span>
+                    <div class="slide-heading-row">
+                        <button class="slider-arrow prev" aria-label="Previous slide">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <h2>Engineering &amp; Industrial Products</h2>
+                        <button class="slider-arrow next" aria-label="Next slide">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <p>Explore our extensive range of quality industrial products trusted by businesses across multiple
+                        sectors.</p>
+                    <div class="hero-buttons">
+                        <a href="./product-home.html" class="btn btn-primary">View Products</a>
+                        <a href="./contact-us.html" class="btn btn-secondary">Enquire Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 — Services (video background) -->
+            <div class="slide slide-services" role="group" aria-label="Slide 3 of 3">
+                <video autoplay muted loop playsinline class="bg-video" aria-hidden="true">
+                    <source src="./images/video/kisb-v1.mp4" type="video/mp4">
+                </video>
+                <div class="slide-content">
+                    <span class="slide-label">Our Services</span>
+                    <div class="slide-heading-row">
+                        <button class="slider-arrow prev" aria-label="Previous slide">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <h2>Your Trusted Industrial Supply Partner</h2>
+                        <button class="slider-arrow next" aria-label="Next slide">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <p>Reliable service solutions designed to keep your business operations running at peak performance.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="./industry-services/service-home.html" class="btn btn-primary">Our Services</a>
+                        <a href="./contact-us.html" class="btn btn-secondary">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dots -->
+            <div class="slider-dots" role="tablist" aria-label="Slide indicators">
+                <button class="dot active" role="tab" aria-selected="true" aria-label="Slide 1" data-index="0"></button>
+                <button class="dot" role="tab" aria-selected="false" aria-label="Slide 2" data-index="1"></button>
+                <button class="dot" role="tab" aria-selected="false" aria-label="Slide 3" data-index="2"></button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Speedee Engineering. All rights reserved.</p>
+            <p>Email: info@kencana.com | Phone: +60 12-345 6789</p>
+        </div>
+    </footer>
+
+    <div class="floating-contact">
+        <div class="floating-items">
+            <a href="https://wa.me/60163230248?text=Hi%2C%20I%20came%20across%20Speedee%20Engineering%20and%20would%20like%20to%20enquire%20about%20your%20products%20and%20services."
+                class="floating-item whatsapp" target="_blank" rel="noopener noreferrer">
+                <span class="tooltip">WhatsApp Us</span>
+                <img src="./images/logo/whatsapp.png" alt="WhatsApp">
+            </a>
+            <a href="mailto:info@kencana.com?subject=Website%20Enquiry" class="floating-item email">
+                <span class="tooltip">Email Us</span>
+                <span class="icon">&#9993;</span>
+            </a>
+            <a href="tel:+60123456789" class="floating-item phone">
+                <span class="tooltip">Call Us</span>
+                <span class="icon">&#9742;</span>
+            </a>
+        </div>
+        <button class="floating-main" id="floatingMain" aria-label="Open contact options">
+            <i class="fas fa-comments"></i>
+        </button>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
